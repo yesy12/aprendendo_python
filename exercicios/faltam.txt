@@ -4,8 +4,6 @@ ex021.py
 ex051.py
 ex076.py
 ex080.py
-ex081.py
-ex082.py
 ex083.py
 ex084.py
 ex085.py
