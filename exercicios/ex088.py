@@ -1,5 +1,5 @@
 from random import randint
-
+from time import sleep
 megasena = []
 listaNumeros = []
 print("MegaSena")
@@ -20,3 +20,4 @@ for numeros in range(0,cartelas):
 
 for cartela in megasena:
 	print(cartela)
+	sleep(1)

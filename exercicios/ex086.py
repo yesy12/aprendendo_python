@@ -8,7 +8,7 @@ for matriz in range(0,3):
 	matrizLista.append(linhas[:])
 	linhas = []
 		
-for pos,linha in enumerate(matrizLista):
+for pos in range(0,len(matrizLista)):
 	for numeros in matrizLista[pos]:
-		print(f"[ {numeros} ]",end="")
+		print(f"[ {numeros:^5} ]",end="")
 	print("")

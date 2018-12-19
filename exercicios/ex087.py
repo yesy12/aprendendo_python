@@ -11,9 +11,9 @@ for matriz in range(1,4):
 	matrizLista.append(linhas[:])
 	linhas = []
 		
-for pos,linha in enumerate(matrizLista):
+for pos in range(0,len(matrizLista)):
 	for posicao,numeros in enumerate(matrizLista[pos]):
-		print(f"[ {numeros} ]",end="")
+		print(f"[ {numeros:^5} ]",end="")
 		if(numeros % 2 == 0):
 			pares += numeros
 		if(posicao == 2):
