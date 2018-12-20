@@ -5,12 +5,6 @@ ex051.py
 ex076.py
 ex080.py
 ex083.py
-ex090.py
-ex091.py
-ex092.py
-ex093.py
-ex094.py
-ex095.py
 ex096.py
 ex097.py
 ex098.py
